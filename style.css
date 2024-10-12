@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(175, 131, 216);
+}
+.heading{
+    background-color: orange;
+    box-shadow: inset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;   /* Adjust this value for more or less rounding */
+    padding: 20px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8); /* Bold bottom border */
+            border-right: 5px solid rgba(0, 0, 0, 0.8);  /* Bold right border */
+            border-top: none;          /* Remove top border */
+            border-left: none;         /* Remove left border */
+}
+.heading button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:aquamarine;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.8); /* Bold bottom border */
+            border-right: 4px solid rgba(0, 0, 0, 0.8);
+            border-radius: 4px;
+        }
+
+#exerciseList {
+    margin-top: 20px;
+    background-color: aquamarine;
+    
+}
+.Exercisedata{
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+            border-radius: 10px;   /* Adjust this value for more or less rounding */
+            padding: 20px;         /* Padding inside the div */
+                   /* Text color */
+            display: flex; 
+            
+            justify-content:space-evenly; /* Center contents horizontally */
+            align-items: center;   /* Center contents vertically */
+            border-bottom: 5px solid rgba(0, 0, 0, 0.8); /* Bold bottom border */
+            border-right: 5px solid rgba(0, 0, 0, 0.8);  /* Bold right border */
+            border-top: none;          /* Remove top border */
+            border-left: none;         /* Remove left border */
+            flex-direction: row; /* Stack elements vertically */
+    gap: 10px; /* Space between elements */
+    
+    
+}
+#exerciseName{
+    width: 300px;
+    padding: 10px;  /* Add padding */
+    font-size: 16px; 
+    background-color: aquamarine;
+}
+
+#exerciseDuration{
+    width: 300px;
+    padding: 10px;  /* Add padding */
+    font-size: 16px;
+    background-color: aquamarine;
+    color :azure;
+}
+.Exercisedata button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: orange;
+    width: 300px;
+    padding: 10px;  /* Add padding */
+    font-size: 16px; 
+    border-bottom: 4px solid rgba(0, 0, 0, 0.8); /* Bold bottom border */
+            border-right: 4px solid rgba(0, 0, 0, 0.8);
+            border-radius: 4px;
+        }
